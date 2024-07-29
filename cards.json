@@ -1,0 +1,50 @@
+[
+	{
+		"name": "GOTTA GO FAST!!!!!",
+		"cost": 5,
+		"type": "spell",
+		"character": "GOTTA GO FAST!!!!!",
+		"text": "IF YOUR NEXT ATTACK WOULD DEAL 10 OR MORE I DODGE IT!!!!!",
+		"art": "gotta_go_fast"
+	},
+	{
+		"name": "Blahaj",
+		"cost": 4,
+		"type": "permanent",
+		"character": "Trapmaster",
+		"text": "Whenever this card is triggered, heal up to 3 HP",
+		"art": "blahaj"
+	},
+	{
+		"name": "Sanic",
+		"cost": 7,
+		"type": "permanent",
+		"character": "GOTTA GO FAST!!!!!",
+		"text": "Every 3rd attack you trigger is triggered an additional time.",
+		"art": "sanic"
+	},
+	{
+		"name": "Scammed",
+		"cost": 4,
+		"type": "spell",
+		"character": "generic",
+		"text": "If your opponent dealt you damage with their last action, heal up to 8 of that damage.",
+		"art": "scammed"
+	},
+	{
+		"name": "i sleep",
+		"cost": 4,
+		"type": "spell",
+		"character": "generic",
+		"text": "Heal up to 10. If you heal for more than 5, skip your next action.",
+		"art": "i_sleep"
+	},
+	{
+		"name": "succ",
+		"cost": 2,
+		"type": "attack",
+		"character": "generic",
+		"text": "Your opponent loses 2 HP. You gain 2 HP.",
+		"art": "succ"
+	}
+]

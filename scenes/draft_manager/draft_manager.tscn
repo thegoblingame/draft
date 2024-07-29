@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dvvswf4kbb8sg"]
+
+[node name="DraftManager" type="Node2D"]
+
+[node name="DraftPickTimer" type="Timer" parent="."]
+wait_time = 3.0
+
+[node name="RoundCounter" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
