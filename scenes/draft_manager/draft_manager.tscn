@@ -1,9 +1,9 @@
-[gd_scene format=3 uid="uid://dvvswf4kbb8sg"]
+[gd_scene load_steps=2 format=3 uid="uid://dvvswf4kbb8sg"]
+
+[ext_resource type="Script" path="res://scenes/draft_manager/draft_manager.gd" id="1_kayvl"]
 
 [node name="DraftManager" type="Node2D"]
-
-[node name="DraftPickTimer" type="Timer" parent="."]
-wait_time = 3.0
+script = ExtResource("1_kayvl")
 
 [node name="RoundCounter" type="Label" parent="."]
 offset_right = 40.0
