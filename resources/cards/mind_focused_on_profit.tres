@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardResource" load_steps=3 format=3 uid="uid://jole3uk136jb"]
+
+[ext_resource type="Texture2D" uid="uid://btcaxiu4hilax" path="res://images/card_art/mind_focused_on_profit.jpg" id="1_6laig"]
+[ext_resource type="Script" path="res://resources/card_resource.gd" id="1_depjv"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_depjv")
+card_name = "Mind Focused On Profit"
+card_cost = 2
+card_type = "spell"
+character = "P2W"
+card_art = ExtResource("1_6laig")
+card_text = "If neither character has taken damage in the last X actions, gain Y energy."

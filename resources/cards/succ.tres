@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardResource" load_steps=3 format=3 uid="uid://b2pv8abisisx6"]
+
+[ext_resource type="Texture2D" uid="uid://chl843h0k0dcn" path="res://images/card_art/succ.png" id="1_qil52"]
+[ext_resource type="Script" path="res://resources/card_resource.gd" id="2_5cuh7"]
+
+[resource]
+script = ExtResource("2_5cuh7")
+card_name = "succ"
+card_cost = 2
+card_type = "attack"
+character = "generic"
+card_art = ExtResource("1_qil52")
+card_text = "Your opponent loses 2 HP. You gain 2 HP."

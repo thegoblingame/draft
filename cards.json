@@ -4,32 +4,63 @@
 		"cost": 5,
 		"type": "spell",
 		"character": "GOTTA GO FAST!!!!!",
-		"text": "IF YOUR NEXT ATTACK WOULD DEAL 10 OR MORE I DODGE IT!!!!!",
-		"art": "gotta_go_fast"
+		"text": "IF YOUR NEXT ACTIVATION WOULD DEAL ME 10 OR MORE I DODGE IT!!!!!",
+		"art": "gotta_go_fast",
+		"path": "res://resources/cards/gotta_go_fast.tres"
+	},
+	{
+		"name": "PSHHH, NOTHIN PERSONNEL KID",
+		"cost": 2,
+		"type": "spell",
+		"character": "GOTTA GO FAST!!!!!",
+		"text": "IF THERE ARE NO CHARACTERS ON MY BOARD, I GAIN X ENERGY!!!!! IF THERE ARE NO CHARACTERS ON YOUR BOARD, I GAIN Y ENERGY!!!!!",
+		"art": "nothin_personnel_kid",
+		"path": "res://resources/cards/nothin_personnel_kid.tres"
+	},
+	{
+		"name": "SANIC",
+		"cost": 7,
+		"type": "permanent",
+		"character": "GOTTA GO FAST!!!!!",
+		"text": "EVERY 3RD ATTACK YOU TRIGGER IS TRIGGERED AN ADDITIONAL TIME!!!!!",
+		"art": "sanic",
+		"path": "res://resources/cards/sanic.tres"
 	},
 	{
 		"name": "Blahaj",
 		"cost": 4,
 		"type": "permanent",
 		"character": "Trapmaster",
-		"text": "Whenever this card is triggered, heal up to 3 HP",
-		"art": "blahaj"
+		"text": "Whenever this card is triggered, heal up to 3 HP.",
+		"art": "blahaj",
+		"path": "res://resources/cards/blahaj.tres"
 	},
 	{
-		"name": "Sanic",
-		"cost": 7,
-		"type": "permanent",
-		"character": "GOTTA GO FAST!!!!!",
-		"text": "Every 3rd attack you trigger is triggered an additional time.",
-		"art": "sanic"
+		"name": "Does He Know?",
+		"cost": 2,
+		"type": "spell",
+		"character": "Trapmaster",
+		"text": "When setting this card, choose a type X. When this card is activated, if the type of the card opposite this is X, your next attack deals +Y damage.",
+		"art": "does_he_know",
+		"path": "res://resources/cards/does_he_know.tres"
 	},
+	{
+		"name": "Mind Focused On Profit",
+		"cost": 2,
+		"type": "spell",
+		"character": "P2W",
+		"text": "If neither character has taken damage in the last X actions, gain Y energy.",
+		"art": "mind_focused_on_profit",
+		"path": "res://resources/cards/mind_focused_on_profit.tres"
+	},	
 	{
 		"name": "Scammed",
 		"cost": 4,
 		"type": "spell",
 		"character": "generic",
 		"text": "If your opponent dealt you damage with their last action, heal up to 8 of that damage.",
-		"art": "scammed"
+		"art": "scammed",
+		"path": "res://resources/cards/scammed.tres"
 	},
 	{
 		"name": "i sleep",
@@ -37,7 +68,8 @@
 		"type": "spell",
 		"character": "generic",
 		"text": "Heal up to 10. If you heal for more than 5, skip your next action.",
-		"art": "i_sleep"
+		"art": "i_sleep",
+		"path": "res://resources/cards/i_sleep.tres"
 	},
 	{
 		"name": "succ",
@@ -45,6 +77,7 @@
 		"type": "attack",
 		"character": "generic",
 		"text": "Your opponent loses 2 HP. You gain 2 HP.",
-		"art": "succ"
+		"art": "succ",
+		"path": "res://resources/cards/succ.tres"
 	}
 ]

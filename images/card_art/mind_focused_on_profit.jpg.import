@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bl6fusn1oqt0s"
-path="res://.godot/imported/scammed.jpeg-37fa7228e2c7e2f49a3e71546286dc32.ctex"
+uid="uid://btcaxiu4hilax"
+path="res://.godot/imported/mind_focused_on_profit.jpg-344a71248d051e7e7e49f75a4e637ef3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/card_artwork/scammed.jpeg"
-dest_files=["res://.godot/imported/scammed.jpeg-37fa7228e2c7e2f49a3e71546286dc32.ctex"]
+source_file="res://images/card_art/mind_focused_on_profit.jpg"
+dest_files=["res://.godot/imported/mind_focused_on_profit.jpg-344a71248d051e7e7e49f75a4e637ef3.ctex"]
 
 [params]
 

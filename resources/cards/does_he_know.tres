@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardResource" load_steps=3 format=3 uid="uid://diaurkq54q708"]
+
+[ext_resource type="Texture2D" uid="uid://d0h61dietdiad" path="res://images/card_art/does_he_know.jpg" id="1_0sqyv"]
+[ext_resource type="Script" path="res://resources/card_resource.gd" id="1_jort2"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_jort2")
+card_name = "Does He Know?"
+card_cost = 2
+card_type = "spell"
+character = "Trapmaster"
+card_art = ExtResource("1_0sqyv")
+card_text = "When setting this card, choose a type X. When this card is activated, if the type of the card opposite this is X, your next attack deals +Y damage."

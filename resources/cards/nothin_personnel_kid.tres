@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardResource" load_steps=3 format=3 uid="uid://dbt36573nqsph"]
+
+[ext_resource type="Script" path="res://resources/card_resource.gd" id="1_vkx2h"]
+[ext_resource type="Texture2D" uid="uid://djydy3t6jiqvg" path="res://images/card_art/nothin_personnel_kid.png" id="1_ymh2d"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_vkx2h")
+card_name = "NOTHIN PERSONNEL KID"
+card_cost = 2
+card_type = "spell"
+character = "GOTTA GO FAST!!!!!"
+card_art = ExtResource("1_ymh2d")
+card_text = "IF THERE ARE NO CHARACTERS ON MY BOARD, I GAIN X ENERGY!!!!! IF THERE ARE NO CHARACTERS ON YOUR BOARD, I GAIN Y ENERGY!!!!!"

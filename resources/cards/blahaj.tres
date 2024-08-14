@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardResource" load_steps=3 format=3 uid="uid://cwibofbyrers1"]
+
+[ext_resource type="Texture2D" uid="uid://c0274sq73yux" path="res://images/card_art/blahaj.webp" id="1_j1fab"]
+[ext_resource type="Script" path="res://resources/card_resource.gd" id="1_nlppv"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_nlppv")
+card_name = "Blahaj"
+card_cost = 4
+card_type = "permanent"
+character = "Trapmaster"
+card_art = ExtResource("1_j1fab")
+card_text = "Whenever this card is triggered, heal up to 3 HP."

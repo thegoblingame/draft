@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardResource" load_steps=3 format=3 uid="uid://t3eqhp4o62f8"]
+
+[ext_resource type="Script" path="res://resources/card_resource.gd" id="1_2nq00"]
+[ext_resource type="Texture2D" uid="uid://bl6fusn1oqt0s" path="res://images/card_art/scammed.jpeg" id="1_w6std"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_2nq00")
+card_name = "Scammed"
+card_cost = 4
+card_type = "spell"
+character = "generic"
+card_art = ExtResource("1_w6std")
+card_text = "If your opponent dealt you damage with their last action, heal up to 8 of that damage."

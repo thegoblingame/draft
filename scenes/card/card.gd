@@ -1,16 +1,12 @@
-extends ColorRect
+extends Node
 
-
+var resource: CardResource
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	print(self.name)
-	print(self.get_class())
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
+	$CardName.text = resource.card_name
+	$CardCost.text = String.num_int64(resource.card_cost)
+	$CardArt.texture = resource.card_art
+	$CardText.text = resource.card_text
 #func on_select():
 # if mode is draft
 # emit append_to_list

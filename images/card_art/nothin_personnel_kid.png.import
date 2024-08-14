@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0274sq73yux"
-path="res://.godot/imported/blahaj.webp-58f82eb32aaf1c3cd2522a90a12d3db0.ctex"
+uid="uid://djydy3t6jiqvg"
+path="res://.godot/imported/nothin_personnel_kid.png-d47fdb59c70932084fec368920a32339.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/card_artwork/blahaj.webp"
-dest_files=["res://.godot/imported/blahaj.webp-58f82eb32aaf1c3cd2522a90a12d3db0.ctex"]
+source_file="res://images/card_art/nothin_personnel_kid.png"
+dest_files=["res://.godot/imported/nothin_personnel_kid.png-d47fdb59c70932084fec368920a32339.ctex"]
 
 [params]
 

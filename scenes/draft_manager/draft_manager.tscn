@@ -2,9 +2,52 @@
 
 [ext_resource type="Script" path="res://scenes/draft_manager/draft_manager.gd" id="1_kayvl"]
 
-[node name="DraftManager" type="Node2D"]
+[node name="DraftManager" type="GridContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_kayvl")
 
-[node name="RoundCounter" type="Label" parent="."]
-offset_right = 40.0
+[node name="PickTimer" type="Timer" parent="."]
+autostart = true
+
+[node name="TimerControl" type="Control" parent="."]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 2
+
+[node name="PickTimerLabel" type="Label" parent="TimerControl"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
 offset_bottom = 23.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 48
+text = "99"
+
+[node name="Slots" type="Control" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="CounterControl" type="Control" parent="."]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 10
+
+[node name="RoundCounter" type="Label" parent="CounterControl"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -23.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 48
+text = "ROUND"
+
+[connection signal="timeout" from="PickTimer" to="." method="_on_pick_timer_timeout"]

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardResource" load_steps=3 format=3 uid="uid://bmwebsd80oj4l"]
+
+[ext_resource type="Script" path="res://resources/card_resource.gd" id="1_kt1th"]
+[ext_resource type="Texture2D" uid="uid://bnto16cy7vpoq" path="res://images/card_art/sanic.webp" id="1_l8rpc"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_kt1th")
+card_name = "SANIC"
+card_cost = 7
+card_type = "permanent"
+character = "GOTTA GO FAST!!!!!"
+card_art = ExtResource("1_l8rpc")
+card_text = "EVERY 3RD ATTACK YOU TRIGGER IS TRIGGERED AN ADDITIONAL TIME!!!!!"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardResource" load_steps=3 format=3 uid="uid://db5medopjdgr2"]
+
+[ext_resource type="Script" path="res://resources/card_resource.gd" id="1_82vhl"]
+[ext_resource type="Texture2D" uid="uid://bjdbpnfdbm0t6" path="res://images/card_art/gotta_go_fast.jpg" id="1_x1xyl"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_82vhl")
+card_name = "GOTTA GO FAST!!!!!"
+card_cost = 5
+card_type = "spell"
+character = "GOTTA GO FAST!!!!!"
+card_art = ExtResource("1_x1xyl")
+card_text = "IF YOUR NEXT ACTIVATION WOULD DEAL ME 10 OR MORE I DODGE IT!!!!!"

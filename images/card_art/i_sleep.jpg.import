@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cy64m1hakn8mb"
-path="res://.godot/imported/tony.jpg-46278d435480168fac4843a17f009582.ctex"
+uid="uid://dh3sdx7sjk0ug"
+path="res://.godot/imported/i_sleep.jpg-df54d4a2fff9e9ebe3f682051f51f6b4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/card_artwork/tony.jpg"
-dest_files=["res://.godot/imported/tony.jpg-46278d435480168fac4843a17f009582.ctex"]
+source_file="res://images/card_art/i_sleep.jpg"
+dest_files=["res://.godot/imported/i_sleep.jpg-df54d4a2fff9e9ebe3f682051f51f6b4.ctex"]
 
 [params]
 
