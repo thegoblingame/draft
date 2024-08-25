@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dvvswf4kbb8sg"]
+[gd_scene load_steps=3 format=3 uid="uid://dvvswf4kbb8sg"]
 
 [ext_resource type="Script" path="res://scenes/draft_manager/draft_manager.gd" id="1_kayvl"]
+[ext_resource type="PackedScene" uid="uid://bayhwu0ymmkr" path="res://scenes/deck_list/deck_list.tscn" id="2_ml4cy"]
 
 [node name="DraftManager" type="GridContainer"]
 anchors_preset = 15
@@ -31,23 +32,35 @@ text = "99"
 [node name="Slots" type="Control" parent="."]
 layout_mode = 2
 size_flags_horizontal = 3
-size_flags_vertical = 3
 
 [node name="CounterControl" type="Control" parent="."]
 layout_mode = 2
-size_flags_horizontal = 6
+size_flags_horizontal = 3
 size_flags_vertical = 10
 
 [node name="RoundCounter" type="Label" parent="CounterControl"]
 layout_mode = 1
-anchors_preset = 12
+anchors_preset = 7
+anchor_left = 0.5
 anchor_top = 1.0
-anchor_right = 1.0
+anchor_right = 0.5
 anchor_bottom = 1.0
-offset_top = -23.0
+offset_left = -89.0
+offset_top = -67.0
+offset_right = 89.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_font_sizes/font_size = 48
 text = "ROUND"
 
+[node name="DeckList" parent="CounterControl" instance=ExtResource("2_ml4cy")]
+layout_mode = 0
+offset_right = 250.0
+size_flags_horizontal = 0
+theme_override_font_sizes/font_size = 14
+allow_search = false
+max_text_lines = 1
+text_overrun_behavior = 0
+
+[connection signal="update_decklist" from="." to="CounterControl/DeckList" method="_on_draft_manager_update_decklist"]
 [connection signal="timeout" from="PickTimer" to="." method="_on_pick_timer_timeout"]

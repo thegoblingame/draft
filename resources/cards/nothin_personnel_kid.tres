@@ -6,9 +6,10 @@
 [resource]
 resource_local_to_scene = true
 script = ExtResource("1_vkx2h")
-card_name = "NOTHIN PERSONNEL KID"
-card_cost = 2
-card_type = "spell"
+name = "PSHHH, NOTHIN PERSONNEL KID"
+cost = 2
+type = "spell"
 character = "GOTTA GO FAST!!!!!"
-card_art = ExtResource("1_ymh2d")
-card_text = "IF THERE ARE NO CHARACTERS ON MY BOARD, I GAIN X ENERGY!!!!! IF THERE ARE NO CHARACTERS ON YOUR BOARD, I GAIN Y ENERGY!!!!!"
+art = ExtResource("1_ymh2d")
+body_text = "IF THERE ARE NO CHARACTERS ON MY BOARD, I GAIN 3 ENERGY!!!!! IF THERE ARE NO CHARACTERS ON YOUR BOARD, I GAIN 3 ENERGY!!!!!"
+key = "nothin_personnel_kid"

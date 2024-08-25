@@ -4,8 +4,8 @@
 		"cost": 5,
 		"type": "spell",
 		"character": "GOTTA GO FAST!!!!!",
-		"text": "IF YOUR NEXT ACTIVATION WOULD DEAL ME 10 OR MORE I DODGE IT!!!!!",
-		"art": "gotta_go_fast",
+		"body_text": "IF YOUR NEXT ACTIVATION WOULD DEAL ME 10 OR MORE I DODGE IT!!!!!",
+		"key": "gotta_go_fast",
 		"path": "res://resources/cards/gotta_go_fast.tres"
 	},
 	{
@@ -13,8 +13,8 @@
 		"cost": 2,
 		"type": "spell",
 		"character": "GOTTA GO FAST!!!!!",
-		"text": "IF THERE ARE NO CHARACTERS ON MY BOARD, I GAIN X ENERGY!!!!! IF THERE ARE NO CHARACTERS ON YOUR BOARD, I GAIN Y ENERGY!!!!!",
-		"art": "nothin_personnel_kid",
+		"body_text": "IF THERE ARE NO CHARACTERS ON MY BOARD, I GAIN 3 ENERGY!!!!! IF THERE ARE NO CHARACTERS ON YOUR BOARD, I GAIN 3 ENERGY!!!!!",
+		"key": "nothin_personnel_kid",
 		"path": "res://resources/cards/nothin_personnel_kid.tres"
 	},
 	{
@@ -22,8 +22,8 @@
 		"cost": 7,
 		"type": "permanent",
 		"character": "GOTTA GO FAST!!!!!",
-		"text": "EVERY 3RD ATTACK YOU TRIGGER IS TRIGGERED AN ADDITIONAL TIME!!!!!",
-		"art": "sanic",
+		"body_text": "EVERY 3RD ATTACK I TRIGGER IS TRIGGERED AN ADDITIONAL TIME!!!!!",
+		"key": "sanic",
 		"path": "res://resources/cards/sanic.tres"
 	},
 	{
@@ -31,8 +31,8 @@
 		"cost": 4,
 		"type": "permanent",
 		"character": "Trapmaster",
-		"text": "Whenever this card is triggered, heal up to 3 HP.",
-		"art": "blahaj",
+		"body_text": "Whenever this card is triggered, heal up to 3 HP.",
+		"key": "blahaj",
 		"path": "res://resources/cards/blahaj.tres"
 	},
 	{
@@ -40,8 +40,8 @@
 		"cost": 2,
 		"type": "spell",
 		"character": "Trapmaster",
-		"text": "When setting this card, choose a type X. When this card is activated, if the type of the card opposite this is X, your next attack deals +Y damage.",
-		"art": "does_he_know",
+		"body_text": "When setting this card, choose a type X. When this card is activated, if the type of the card opposite this is X, your next attack deals +5 damage.",
+		"key": "does_he_know",
 		"path": "res://resources/cards/does_he_know.tres"
 	},
 	{
@@ -49,8 +49,8 @@
 		"cost": 2,
 		"type": "spell",
 		"character": "P2W",
-		"text": "If neither character has taken damage in the last X actions, gain Y energy.",
-		"art": "mind_focused_on_profit",
+		"body_text": "If neither character has taken damage in the last 3 actions, gain 5 energy.",
+		"key": "mind_focused_on_profit",
 		"path": "res://resources/cards/mind_focused_on_profit.tres"
 	},	
 	{
@@ -58,8 +58,8 @@
 		"cost": 4,
 		"type": "spell",
 		"character": "generic",
-		"text": "If your opponent dealt you damage with their last action, heal up to 8 of that damage.",
-		"art": "scammed",
+		"body_text": "If your opponent dealt you damage with their last action, heal up to 8 of that damage.",
+		"key": "scammed",
 		"path": "res://resources/cards/scammed.tres"
 	},
 	{
@@ -67,8 +67,8 @@
 		"cost": 4,
 		"type": "spell",
 		"character": "generic",
-		"text": "Heal up to 10. If you heal for more than 5, skip your next action.",
-		"art": "i_sleep",
+		"body_text": "Heal up to 10. If you heal for more than 5, skip your next action.",
+		"key": "i_sleep",
 		"path": "res://resources/cards/i_sleep.tres"
 	},
 	{
@@ -76,8 +76,8 @@
 		"cost": 2,
 		"type": "attack",
 		"character": "generic",
-		"text": "Your opponent loses 2 HP. You gain 2 HP.",
-		"art": "succ",
+		"body_text": "Your opponent loses 2 HP. You gain 2 HP.",
+		"key": "succ",
 		"path": "res://resources/cards/succ.tres"
 	}
 ]

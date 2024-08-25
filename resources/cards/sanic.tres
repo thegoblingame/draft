@@ -6,9 +6,10 @@
 [resource]
 resource_local_to_scene = true
 script = ExtResource("1_kt1th")
-card_name = "SANIC"
-card_cost = 7
-card_type = "permanent"
+name = "SANIC"
+cost = 7
+type = "permanent"
 character = "GOTTA GO FAST!!!!!"
-card_art = ExtResource("1_l8rpc")
-card_text = "EVERY 3RD ATTACK YOU TRIGGER IS TRIGGERED AN ADDITIONAL TIME!!!!!"
+art = ExtResource("1_l8rpc")
+body_text = "EVERY 3RD ATTACK I TRIGGER IS TRIGGERED AN ADDITIONAL TIME!!!!!"
+key = "sanic"

@@ -6,9 +6,10 @@
 [resource]
 resource_local_to_scene = true
 script = ExtResource("1_jort2")
-card_name = "Does He Know?"
-card_cost = 2
-card_type = "spell"
+name = "Does He Know?"
+cost = 2
+type = "spell"
 character = "Trapmaster"
-card_art = ExtResource("1_0sqyv")
-card_text = "When setting this card, choose a type X. When this card is activated, if the type of the card opposite this is X, your next attack deals +Y damage."
+art = ExtResource("1_0sqyv")
+body_text = "When setting this card, choose a type X. When this card is activated, if the type of the card opposite this is X, your next attack deals +5 damage."
+key = "does_he_know"

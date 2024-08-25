@@ -6,9 +6,10 @@
 [resource]
 resource_local_to_scene = true
 script = ExtResource("1_82vhl")
-card_name = "GOTTA GO FAST!!!!!"
-card_cost = 5
-card_type = "spell"
+name = "GOTTA GO FAST!!!!!"
+cost = 5
+type = "spell"
 character = "GOTTA GO FAST!!!!!"
-card_art = ExtResource("1_x1xyl")
-card_text = "IF YOUR NEXT ACTIVATION WOULD DEAL ME 10 OR MORE I DODGE IT!!!!!"
+art = ExtResource("1_x1xyl")
+body_text = "IF YOUR NEXT ACTIVATION WOULD DEAL ME 10 OR MORE I DODGE IT!!!!!"
+key = "gotta_go_fast"

@@ -6,9 +6,10 @@
 [resource]
 resource_local_to_scene = true
 script = ExtResource("1_nlppv")
-card_name = "Blahaj"
-card_cost = 4
-card_type = "permanent"
+name = "Blahaj"
+cost = 4
+type = "Blahaj"
 character = "Trapmaster"
-card_art = ExtResource("1_j1fab")
-card_text = "Whenever this card is triggered, heal up to 3 HP."
+art = ExtResource("1_j1fab")
+body_text = "Whenever this card is triggered, heal up to 3 HP."
+key = "blahaj"

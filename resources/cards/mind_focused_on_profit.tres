@@ -6,9 +6,10 @@
 [resource]
 resource_local_to_scene = true
 script = ExtResource("1_depjv")
-card_name = "Mind Focused On Profit"
-card_cost = 2
-card_type = "spell"
+name = "Mind Focused On Profit"
+cost = 2
+type = "spell"
 character = "P2W"
-card_art = ExtResource("1_6laig")
-card_text = "If neither character has taken damage in the last X actions, gain Y energy."
+art = ExtResource("1_6laig")
+body_text = "If neither character has taken damage in the last 3 actions, gain 5 energy."
+key = "mind_focused_on_profit"

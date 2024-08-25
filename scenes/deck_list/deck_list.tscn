@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bayhwu0ymmkr"]
+
+[ext_resource type="Texture2D" uid="uid://ch77kq2re10ty" path="res://images/icons/deck.png" id="1_m2osp"]
+[ext_resource type="Script" path="res://scenes/deck_list/deck_list.gd" id="1_tqndl"]
+
+[node name="DeckList" type="ItemList"]
+offset_right = 200.0
+offset_bottom = 200.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 16
+max_text_lines = 2
+item_count = 1
+item_0/text = "Deck List"
+item_0/icon = ExtResource("1_m2osp")
+item_0/selectable = false
+script = ExtResource("1_tqndl")

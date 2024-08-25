@@ -1,11 +1,23 @@
-[gd_scene load_steps=2 format=3 uid="uid://cos7oyhfflf0x"]
+[gd_scene load_steps=3 format=3 uid="uid://cos7oyhfflf0x"]
 
 [ext_resource type="Script" path="res://scenes/card/card.gd" id="1_jpp8f"]
 
-[node name="CardBackground" type="ColorRect"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xmoxq"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+
+[node name="CardBackground" type="Panel"]
 offset_right = 250.0
 offset_bottom = 375.0
-color = Color(0, 0, 0, 1)
+theme_override_styles/panel = SubResource("StyleBoxFlat_xmoxq")
 script = ExtResource("1_jpp8f")
 
 [node name="CardName" type="Label" parent="."]
@@ -58,3 +70,7 @@ xxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxx"
 vertical_alignment = 1
 autowrap_mode = 2
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

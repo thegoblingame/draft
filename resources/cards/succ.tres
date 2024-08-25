@@ -5,9 +5,10 @@
 
 [resource]
 script = ExtResource("2_5cuh7")
-card_name = "succ"
-card_cost = 2
-card_type = "attack"
+name = "succ"
+cost = 2
+type = "attack"
 character = "generic"
-card_art = ExtResource("1_qil52")
-card_text = "Your opponent loses 2 HP. You gain 2 HP."
+art = ExtResource("1_qil52")
+body_text = "Your opponent loses 2 HP. You gain 2 HP."
+key = "succ"

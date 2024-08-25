@@ -6,9 +6,10 @@
 [resource]
 resource_local_to_scene = true
 script = ExtResource("1_efjvb")
-card_name = "i sleep"
-card_cost = 4
-card_type = "spell"
+name = "i sleep"
+cost = 4
+type = "spell"
 character = "generic"
-card_art = ExtResource("1_85uyr")
-card_text = "Heal up to 10. If you heal for more than 5, skip your next action."
+art = ExtResource("1_85uyr")
+body_text = "Heal up to 10. If you heal for more than 5, skip your next action."
+key = "i_sleep"

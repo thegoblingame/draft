@@ -6,9 +6,10 @@
 [resource]
 resource_local_to_scene = true
 script = ExtResource("1_2nq00")
-card_name = "Scammed"
-card_cost = 4
-card_type = "spell"
+name = "Scammed"
+cost = 4
+type = "spell"
 character = "generic"
-card_art = ExtResource("1_w6std")
-card_text = "If your opponent dealt you damage with their last action, heal up to 8 of that damage."
+art = ExtResource("1_w6std")
+body_text = "If your opponent dealt you damage with their last action, heal up to 8 of that damage."
+key = "scammed"

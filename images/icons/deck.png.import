@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://di3ysx8i8bcoj"
-path="res://.godot/imported/coldsteel.png-4cc8646b5f06ca83735350ef722664be.ctex"
+uid="uid://ch77kq2re10ty"
+path="res://.godot/imported/deck.png-6c7439ec18c492a884d9c4a6102fb5ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/character_icons/coldsteel.png"
-dest_files=["res://.godot/imported/coldsteel.png-4cc8646b5f06ca83735350ef722664be.ctex"]
+source_file="res://images/icons/deck.png"
+dest_files=["res://.godot/imported/deck.png-6c7439ec18c492a884d9c4a6102fb5ae.ctex"]
 
 [params]
 
